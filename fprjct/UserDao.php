@@ -7,7 +7,6 @@ class UserDao
     {
         try {
             $pdo = dbconn::getInstance();
-
             $query = "INSERT INTO users (user_name, user_email, user_password, user_joining_date)
 					   VALUES (:name,:email, :password,:date_of_reg)";
 
@@ -33,4 +32,5 @@ class UserDao
 
 
     }
+
 }

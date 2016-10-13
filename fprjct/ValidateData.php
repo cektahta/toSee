@@ -28,17 +28,7 @@ class DataCheck
         return true;
     }
 
-    public static function validateEmail($email)
-    {
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            return false;
-        }
-        if(UserDao::checkEmail($email)) {
-            return false;
-        }
 
-        return true;
-    }
 
 
 }
