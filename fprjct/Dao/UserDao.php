@@ -1,6 +1,7 @@
 <?php
-require_once 'dbconn.php';
-require_once 'UserModel.php';
+namespace Dao;
+use Database\dbconn;
+use Model\User;
 class UserDao
 {
     public static function addUser(User $user)

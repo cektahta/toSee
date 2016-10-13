@@ -15,7 +15,7 @@
         <section>
             <div class="login">
                 <h1>Registration</h1>
-                <form id="register" action="RegisterController.php" method="post">
+                <form id="register" action="../Controller/RegisterController.php" method="post">
                     <div>
                         <label for="name">Name</label>
                         <input id="first-name" type="text" name="name"/>

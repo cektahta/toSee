@@ -1,4 +1,5 @@
 <?php
+namespace Helper;
 class ArrReader
 {
     public static function getFromArray($array, $key, $default = "")

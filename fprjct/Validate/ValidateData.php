@@ -1,5 +1,6 @@
 <?php
-class DataCheck
+namespace Validate;
+class ValidateData
 {
     public static function validateLogin($login)
     {

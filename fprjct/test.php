@@ -1,6 +1,6 @@
 <?php
 require_once 'dbconn.php';
-require_once 'UserModel.php';
+require_once 'User.php';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $password = $_POST['password'];

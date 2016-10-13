@@ -1,4 +1,5 @@
 <?php
+namespace Controller;
 abstract class AbstractController
 {
     protected function render($file, $data = [])

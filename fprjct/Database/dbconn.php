@@ -1,4 +1,5 @@
 <?php
+namespace Database ;
 require_once 'config.php';
 class dbconn {
 
